@@ -5,8 +5,12 @@ class program{
             Fly aguia = new Fly("224312", "Águia");
             Walk pinguim = new Walk("224313", "Pinguim");
 
+                System.Console.WriteLine($"-=-=-=-=- AVES -=-=-=-=-");
+                
             aguia.Voar();
-            System.Console.WriteLine($"----------------------------------");
+
+            System.Console.WriteLine($"-=-=-=-=-=-=-=-=-=-");
+                
             pinguim.Voar();
         }
     }
